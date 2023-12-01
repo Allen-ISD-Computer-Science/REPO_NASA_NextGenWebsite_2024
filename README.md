@@ -4,7 +4,7 @@ Our mission the next-gen site is simple: to create a site where quality meets ac
 
 # Roles
 - Project Manager, Shiloh Asir, shilohasir, https://codermerlin.academy/users/shiloh-asir/Digital%20Portfolio 
-- 
-- 
+- QA Analyist, Alex Suarez, alexsuarez98, https://codermerlin.academy/users/alexis-suarez/Digital%20Portfolio/index.html
+- Project Manager, Eileen Jin, affevct, https://codermerlin.academy/users/eileen-jin/Digital%20Portfolio/index.html
 
 
