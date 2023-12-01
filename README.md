@@ -4,7 +4,7 @@ Our mission the next-gen site is simple: to create a site where quality meets ac
 
 # Roles
 - 
-- QA Analyist, Alex Suarez, alexsuarez98, https://codermerlin.academy/users/alexis-suarez/Digital%20Portfolio/index.html
+- QA Analyist, Alex Suarez, alexsuarez98, [Digital Portfolio](https://codermerlin.academy/users/alexis-suarez/Digital%20Portfolio/index.html)
  
 - 
 
