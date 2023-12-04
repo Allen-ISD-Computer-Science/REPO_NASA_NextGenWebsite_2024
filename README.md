@@ -7,5 +7,5 @@ Our mission for the next-gen site is simple: to create a website where quality m
 - QA Analyist, Alex Suarez, alexsuarez98, [Digital Portfolio](https://codermerlin.academy/users/alexis-suarez/Digital%20Portfolio/index.html)
 - Product Manager, Shiloh Asir, shilohasir, [Digital Portfolio](https://codermerlin.academy/users/shiloh-asir/Digital%20Portfolio/index.html)
 - Project Manager, Eileen Jin, affevct, [Digital Portfolio](https://codermerlin.academy/users/eileen-jin/Digital%20Portfolio/index.html)
-
+-UI/UX Designer, Lavanya Satish, Lavanyasatish1, [Digital Portfolio](https://www.codermerlin.academy/users/lavanya-satish/Digital%20Portfolio/index.html)
 
