@@ -4,12 +4,9 @@ Our mission for the next-gen site is simple: to create a website where quality m
 
 
 # Roles
-<<<<<<< HEAD
-- Project Manager, Shiloh Asir, shilohasir,[Digital Portfoli]( https://codermerlin.academy/users/shiloh-asir/Digital%20Portfolio/index.html)
-=======
 - Project Manager, Shiloh Asir, shilohasir, [Digital Portfolio](https://codermerlin.academy/users/shiloh-asir/Digital%20Portfolio/index.html)
->>>>>>> 92425825a8ad23f1801e2aaa7f7848230561cd38
 - QA Analyist, Alex Suarez, alexsuarez98, https://codermerlin.academy/users/alexis-suarez/Digital%20Portfolio/index.html
 - Project Manager, Eileen Jin, affevct, [Digital Portfolio](https://codermerlin.academy/users/eileen-jin/Digital%20Portfolio/index.html)
+>>>>>>> 92425825a8ad23f1801e2aaa7f7848230561cd38
 
 
