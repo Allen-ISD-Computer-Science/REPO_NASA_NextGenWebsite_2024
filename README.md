@@ -1,6 +1,6 @@
 # Vision Statement for NASA Next Generation Website
 
-Our mission for the next-gen site is simple: to create a website where quality meets accessibility. We want to deliver an experience that is both visually appealing and easy to understand to inform the audience of The National Aeronautics and Space Administration (NASA)'s current projects. By using our knowledge of programming, design, and creating easily navigable tabs with clean and well-chosen aesthetics, we aim to create a seamless and comprehensive experience for the user.            
+Our mission for the next-gen site is simple: to create a website where quality meets accessibility! We want to deliver an experience that is both visually appealing and easy to understand to inform the audience of The National Aeronautics and Space Administration (NASA)'s current projects. By using our knowledge of programming, design, and creating easily navigable tabs with clean and well-chosen aesthetics, we aim to create a seamless and comprehensive experience for the user.            
 
 
 # Roles
