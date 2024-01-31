@@ -81,7 +81,7 @@
     white-space: normal;
     margin: 0 auto; 
     animation: 
-      typing 3.5s steps(30, end),
+      typing 1.0s steps(30, end),
       blink-caret .5s step-end infinite;
   }
   
