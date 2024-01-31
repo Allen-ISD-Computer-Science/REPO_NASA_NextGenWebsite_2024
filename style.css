@@ -1,5 +1,256 @@
-/*#0048BA 
-/*#F0F8FF 
-/*#D3212D
-/*#000000 
-/* 
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .main{
+    background-color: #0D195F ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .5);
+    
+  
+  }
+  
+  .menu {
+    width: 400px;
+    float:right;
+    height:70px;
+  }
+  
+  ul {
+    float:right;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+  }
+  
+  ul li {
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 27px;
+    font-size:14px;
+  
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #FFFFFF  ;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    letter-spacing: .2em;
+  
+  }
+  
+  ul li a:hover {
+    color: ;
+  }
+  
+   /* .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #F4F4F4   ;
+  } */
+  
+  .typewriter h1 {
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size:40px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: .2em;
+    overflow: hidden; 
+    border-right: .15em solid #9BA9FF  ; 
+    white-space: normal;
+    margin: 0 auto; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  .typewriter {
+    position: absolute;
+    left: 55%;
+    top: calc(75%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #9BA9FF   }
+  }
+  
+  /*
+  .contact-list {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .contact-list h2 {
+    font-size: 18px;
+    color: #525252;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .contact-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #525252;
+  }
+  
+  .contact-list .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    /* Add icon styles here */
+  }
+  
+  /*
+  .bottom-tabs {
+    margin-top: 0px; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    height: 1350px;
+  }
+  
+  .bottom-tabs ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bottom-tabs ul li {
+    list-style: none;
+    margin-right: 62px; /* Adjust the margin as desired */
+  }
+  
+  .bottom-tabs ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    letter-spacing: .2em;
+  }
+  
+  .bottom-tabs ul li a:hover {
+    
+  } 
+  
+  @import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+  html, body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: hsla(221, 95%, 75%, 1);
+    background-image: radial-gradient(top, circle cover, hsla(221, 95%, 75%, 1) 5%, hsla(251, 20%, 17%,1) 90%);
+    width:100%; 
+    overflow:hidden;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  h2{
+    color:hsla(255,255%,255%,1);
+    font-size:1.8em;
+    margin-top:3em;
+    text-shadow:-3px -3px hsla(255,255%,255%,.3);
+  }
+  .svg{
+    width:100%;
+    text-align:center;
+    margin:0;
+  }
+  svg{
+    width:100%; 
+    margin-top:2em;
+  }
+  
+  .social-icon {
+    color: #ffffff;
+  
+  
+  }
+  
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80%; /* Adjust the height to fit your layout */
+    }
+  
+    .icon-container svg {
+      /* Add any additional styling for the sphere SVG here */
+      margin-left: 20%;  }
+  
+    .icon-container ion-icon {
+      margin-top: -1900%; /* Adjust the margin-top value to move the icon lower */
+      margin-left: 3000%;
+    }
+  /* username */
+  
+    .username-container {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+  }
+  /*
+  .username-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  */
+  .username-input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #9BA9FF;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .username-input:focus {
+    outline: none;
+    border-color: #5C6AC4;
+    box-shadow: 0 0 5px #5C6AC4;
+  }
+  
