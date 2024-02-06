@@ -3,9 +3,8 @@
     padding: 0;
   }
   
-  
-  
-  .main{
+/* START of code for typewriter animation title*/  
+.main{
     background-color: #0D195F ;
     width: 100%;
     height: 100vh;
@@ -14,14 +13,47 @@
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, .5);
     
-  
   }
-  
-  .menu {
+
+h1 {
+    color: white;
+}
+
+.container{
+    font-family: "arial";
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.typed {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid white;
+    width: 0;
+    animation: typing 1.5s steps(30, end) forwards, blinking 1.25s infinite;
+}
+
+@keyframes typing {
+    from { width: 0% }
+    to { width: 18% }
+}
+
+@keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: white}
+    100% {border-right-color: transparent}
+}
+/* END of code for typewriter animation title*/  
+
+/*.menu {
     width: 400px;
     float:right;
     height:70px;
-  }
+  } */
   
   ul {
     float:right;
@@ -68,7 +100,7 @@
     background-color: #F4F4F4   ;
   } */
   
-  .typewriter h1 {
+ /* .typewriter h1 {
     color: #FFFFFF;
     font-family: monospace;
     font-size:40px;
@@ -91,19 +123,7 @@
     top: calc(75%);
     transform: translate(-50%, -50%);
     z-index: 1;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #9BA9FF   }
-  }
+  } */
   
   /*
   .contact-list {
