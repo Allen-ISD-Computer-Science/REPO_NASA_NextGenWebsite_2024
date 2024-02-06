@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 box-sizing: border-box;
+overflow: scroll;
 }
   
   
@@ -9,7 +10,7 @@ box-sizing: border-box;
   .main{
     background-color: #0D195F ;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,6 +18,13 @@ box-sizing: border-box;
     
   
   }
+
+.header {
+padding-left: 0%;
+padding-right: 0%;
+position: fixed;
+height: 70px;
+}
   
   .menu {
     width: 400px;
@@ -34,7 +42,7 @@ box-sizing: border-box;
   
   ul li {
     list-style: none;
-    margin-right: 62px;
+    margin-right: 15%;
     margin-top: 27px;
     font-size:14px;
   
