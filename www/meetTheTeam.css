@@ -15,15 +15,15 @@ h1 {
   //display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: black
+  background-color: white
 }
 
 .item {
-  border: 2px solid #333;
+  /*border: 2px solid #333;*/
   padding: 10px;
   margin: 10px;
   text-align: center;
-  background-color: #182440
+  /*background-color: #182440*/
 
 }
 
@@ -36,16 +36,22 @@ h1 {
 
 h3 {
     margin: 10px 0;
-    color: white
+    color: black
 }
 
 p {
     margin: 5px 0;
-    color: white
+    color: black
 }
 
 .row {
     display: flex
+}
+
+.row2 {
+    display: flex;
+    background-color: #626363;
+	     
 }
 
 .column {
@@ -53,20 +59,6 @@ p {
     padding: 5px;
 }
 
-.thumbnail { 
-top:-50px; 
-left:-35px; 
-display:block; 
-z-index:999; 
-cursor: pointer; 
--webkit-transition-property: all; 
--webkit-transition-duration: 0.3s; 
--webkit-transition-timing-function: ease; 
-} 
 
-/*change the number below to scale to the appropriate size*/ 
-.thumbnail:hover { 
-transform: scale(1.1); 
 
-}
 
