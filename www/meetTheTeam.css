@@ -2,7 +2,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+margin: 0;
   padding: 0;
 }
 
@@ -14,15 +14,14 @@ h1 {
   //display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: black
+  background-color: white;
 }
 
 .item {
-  border: 2px solid #333;
   padding: 10px;
-  margin: 10px;
-  text-align: center;
-  background-color: #182440
+  margin-left: 70px;
+  text-align: left;
+  background-color: white;
 
 }
 
@@ -34,13 +33,19 @@ h1 {
 }
 
 h3 {
-    margin: 10px 0;
-    color: white
+display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
 }
 
 p {
     margin: 5px 0;
-    color: white
+    color: black;
+    font-size: 1rem;
 }
 
 .row {
