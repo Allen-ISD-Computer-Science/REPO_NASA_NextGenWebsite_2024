@@ -345,3 +345,37 @@
     }
 }
 
+/* Services Section */
+
+.services {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.services h1 {
+    background-color: red;
+    background-image: linear-gradient(to right, #430700 0%, #750C00 21%, #A70000 52%, #DF0000 100%);
+
+    background.size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.services_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services_card {
+    margin: 1rem;
+    height: 525px;
+}
+
