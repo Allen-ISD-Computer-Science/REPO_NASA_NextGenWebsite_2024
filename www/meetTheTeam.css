@@ -20,8 +20,7 @@ h1 {
     color: white;
     text-shadow: #0D1C2E 1px 0 10px;
     font-weight: 700;
-    font-size: 7vw;
-    padding-bottom: 15%;
+    font-size: 8vw;
 }
 
 .gallery {
@@ -51,12 +50,12 @@ h1 {
 
 h3 {
     margin: 10px 0;
-    color: white
+    color: white;
 }
 
 p {
     margin: 5px 0;
-    color: white
+    color: white;
 }
 
 .row {
@@ -67,7 +66,4 @@ p {
     flex: 33.33;
     padding: 5px;
 }
-
-
-
 
