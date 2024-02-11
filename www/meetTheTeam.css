@@ -1,13 +1,15 @@
 /* meetTheTeam.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
+    color: white;
 }
 
 
@@ -19,11 +21,13 @@ h1 {
 }
 
 .item {
-  /*border: 2px solid #333;*/
+  border: 2px solid #333;
   padding: 10px;
-  margin: 10px;
+  margin: 1%;
   text-align: center;
-  /*background-color: #182440*/
+  /*background-color: #18244088*/
+  background-image: url("https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000362/GSFC_20171208_Archive_e000362~small.jpg");
+  background-position: center;
 
 }
 
@@ -36,22 +40,16 @@ h1 {
 
 h3 {
     margin: 10px 0;
-    color: black
+    color: white
 }
 
 p {
     margin: 5px 0;
-    color: black
+    color: white
 }
 
 .row {
     display: flex;
-}
-
-.row2 {
-    display: flex;
-    background-color: #626363;
-	     
 }
 
 .column {
