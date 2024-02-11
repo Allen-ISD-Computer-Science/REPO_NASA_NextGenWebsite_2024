@@ -213,7 +213,7 @@
     height: 90vh;
     /*    background-color: black; */
     background-image: url('background.jpg');
-    background-size: 1000px 600px;
+    background-size: 90%;
     z-index: 1;
     width: 90%;
     max-width: 1300px;
@@ -232,9 +232,9 @@
 }
 
 .main_content h2 {
-    font-size: 4rem;
+    font-size: 3.25rem;
     background-color: blue;
-    background-image: linear-gradient(to top, #2A42A2 0%, #56B2BF 100%);
+    background-image: linear-gradient(to top, #000C6D 10%, #56B2BF 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -326,7 +326,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {    
     .main_content h1 {
 	font-size: 2rem;
 	margin-top: 3rem;
