@@ -31,7 +31,7 @@
 
 #navbar_logo {
     background-color: blue;
-    background-image: linear-gradient(to top, red 0%, white 100%);
+    background-image: linear-gradient(to top, #BDBDBD 0%, white 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -221,7 +221,7 @@
 .main_content h1 {
     font-size: 4rem;
     background-color: red;
-    background-image: linear-gradient(to top, red 0%, white 100%);
+    background-image: linear-gradient(to top, maroon 0%, red 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -232,7 +232,7 @@
 .main_content h2 {
     font-size: 4rem;
     background-color: blue;
-    background-image: linear-gradient(to top, blue 0%, white 100%);
+    background-image: linear-gradient(to top, #2A42A2 0%, #56B2BF 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -243,7 +243,7 @@
 .main_content p {
     margin-top: 1rem;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 300;
     color: white;
 }
 
