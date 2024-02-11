@@ -12,17 +12,6 @@ h1 {
     color: white;
 }
 
-.header-txt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: #0D1C2E 1px 0 10px;
-    font-weight: 700;
-    font-size: 7vw;
-    padding-bottom: 15%;
-}
 
 .gallery {
   //display: flex;
