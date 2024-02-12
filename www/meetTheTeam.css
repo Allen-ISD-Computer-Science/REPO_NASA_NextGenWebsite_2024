@@ -12,6 +12,19 @@ h1 {
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+.header-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: #0D1C2E 1px 0 10px;
+    font-weight: 700;
+    font-size: 8vw;
+}
+>>>>>>> 635a3ca85d5c9d7bd7f9aa82b6fb930b38f262f0
 
 .gallery {
   //display: flex;
@@ -40,12 +53,12 @@ h1 {
 
 h3 {
     margin: 10px 0;
-    color: white
+    color: white;
 }
 
 p {
     margin: 5px 0;
-    color: white
+    color: white;
 }
 
 .row {
@@ -56,7 +69,4 @@ p {
     flex: 33.33;
     padding: 5px;
 }
-
-
-
 

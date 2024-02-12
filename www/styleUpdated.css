@@ -211,9 +211,11 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: black;
+    background-image: url('background.jpg');
+    background-size: 90%;
+    background-repeat: no-repeat;
     z-index: 1;
-    width: 100%;
+    width: 90%;
     max-width: 1300px;
     padding: 0 50px;
 }
@@ -230,9 +232,9 @@
 }
 
 .main_content h2 {
-    font-size: 4rem;
+    font-size: 3.25rem;
     background-color: blue;
-    background-image: linear-gradient(to top, #2A42A2 0%, #56B2BF 100%);
+    background-image: linear-gradient(to top, #000C6D 10%, #56B2BF 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -324,7 +326,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {    
     .main_content h1 {
 	font-size: 2rem;
 	margin-top: 3rem;
@@ -345,3 +347,105 @@
     }
 }
 
+/* Services Section */
+
+.services {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+}
+
+.services h1 {
+    background-color: red;
+    background-image: linear-gradient(to left, #760000 0%, #750C00 21%, #A70000 52%, #DF0000 100%);
+
+    background.size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.services_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services_card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('rocketlaunch.jpg');
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.services_card:nth-child(2) {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('spaceship.jpg');
+}
+
+.services h2 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.services_card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.services_card button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: red;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.services_card:hover {
+    transform: scale(1.05);
+    transition: 0.15s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .services {
+	height: 1600px;
+    }
+
+    .services h1 {
+	font-size: 2rem;
+	margin-top: 12rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services {
+	height: 1400px;
+    }
+
+    .services h1 {
+	font-size: 1.2rem;
+    }
+
+    .services_card {
+	width: 300px;
+    }
+}
+
+/* Footer */
