@@ -211,9 +211,9 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    /*    background-color: black; */
     background-image: url('background.jpg');
     background-size: 90%;
+    background-repeat: no-repeat;
     z-index: 1;
     width: 90%;
     max-width: 1300px;
