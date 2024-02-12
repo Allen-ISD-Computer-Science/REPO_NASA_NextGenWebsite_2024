@@ -6,8 +6,9 @@ html {
     margin: 0;
     padding: 0;
 
-body {
-    background-color: #F4F4F4; 
+
+body{
+    background-color: black; 
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -16,11 +17,12 @@ body {
 
 h2 {
     font-size: 300px;
-  
+    
 }
 
 h3 {
     font-size: 50px;
+    color: white;
 }
 
 
@@ -257,6 +259,7 @@ h3 {
 .software {
     display: flex;
     text-align: right;
+    color: white;
 }
 
 .programs img {
