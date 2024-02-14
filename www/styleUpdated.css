@@ -23,7 +23,7 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 50px;
     
@@ -109,7 +109,7 @@
 	height: 75vh;
 	z-index: 1;
 	width: 100%;
-	max-width: 1300px;
+	/* max-width: 1300px; */
 	padding: 0;
     }
 
@@ -208,7 +208,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-self: center;
+    justify-self: center; 
     margin: 0 auto;
     height: 90vh;
     background-image: url('background.jpg');
@@ -216,7 +216,7 @@
     background-repeat: no-repeat;
     z-index: 1;
     width: 90%;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     padding: 0 50px;
 }
 
