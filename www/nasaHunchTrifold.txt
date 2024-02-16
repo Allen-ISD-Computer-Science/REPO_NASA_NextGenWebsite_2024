@@ -1,0 +1,67 @@
+﻿Info:
+
+Our goal for this project is to recreate the official NASA HUNCH website, while also fixing the various issues users faced with new creative solutions. We aim to improve the navigation and visuals of the website, while also combining several of the NASA HUNCH websites into one seamless platform. By using HTML and CSS, we were able to create a prototype website covers several of the pages we will include in our final product site. From the prototype to our presentation, we hope that you will see our abilities, as well as our vision for the future NASA HUNCH Website. 
+
+
+Before
+
+
+Overall: The original NASA HUNCH website is highly unorganized, literally and visually. As a team, we felt that the general layout of the site was confusing, with a visual style that was un-navigable and links that led to entirely different websites. We knew that in order to fix these issues, we needed to focus on specific areas to solve the problem as a whole. 
+
+
+Overall: In order to improve upon the original website, we put emphasis on increasing the navigability of the website by making links stand and leading the user throughout the site via images and text. Also, we wanted the website to stand out more visually, so we implemented more color and design. Through these changes, the website stands out more, especially to people in the younger demographic, which is the target audience. 
+
+
+Design:
+The main title block on each page takes up the whole screen when you open the site, which makes the other text seem much smaller by comparison.  This specific example of design makes it difficult to navigate through the site, as it is harder to see the buttons and text. 
+
+
+Design: 
+In our design, we focused on a more friendly-looking site, especially with the page title cards. By having a smaller title screen, leads the user to read the rest of the text (which is also bigger) and notice the nav bar and links more easily. Additionally, the colors also combine better together, improving the website aesthetically. 
+
+
+Programs: The programs are cramped together and don’t provide enough information on each of the specific programs. The layout isn’t proportional and lacks creativity because of its use of basic colors, such as black and white, and simple design. Overall it lacks in navigability and design, making things more confusing for the user.
+
+
+Homepage: The homepage does not place enough emphasis on the point of NASA hunch, and what the program is about. It isn't properly marketed towards high school students and doesn’t provide enough information on how to join, what is the purpose of each program, when each project is starting/ending, and what the guidelines are for each project. The latest updates section is out of date and does not provide proper resources to sign up for the mission described and the map has minor glitches and isn’t completely accurate.
+
+
+
+
+After
+
+
+Programs:
+
+
+Homepage:
+
+
+Meet the team:
+
+
+
+
+
+
+Features
+
+
+Chatbot:
+This feature is designed to assist users with projects and will give general information about NASA HUNCH. This chatbot will have a database of information to base its answers on in order to give educated and precise answers to the questions posed by users. Some of these questions could be “What is NASA HUNCH?”, “Who do I contact about the HUNCH Software Program?” and “How do I get started?”.
+
+
+Merch:
+This website tab allows for easy access to the NASA HUNCH Merch! Initially, this webpage was extremely difficult to find and navigate, so we put it on our website for easy access. By putting it here, we hope to increase traffic through the merchandise page and sales by proxy!
+
+
+Personal Accounts:
+This feature allows the user to sign up and sign into their personal NASA HUNCH account. By having an account, the user is able to track their project’s important upcoming dates, saves your chatbot conversations, and allows you to easily use other features (like the personality quiz and merch site). 
+
+
+FAQ:
+This page will be filled with frequently asked questions that audiences need clarification on. By having an FAQ page, we hope users will find it easier to get started and fully understand their HUNCH projects and guidelines. Having many important answers in one spot not only clarifies things for a small group of people but also educates a large number of people at once. 
+
+
+Personalized quiz: 
+This feature will allow each student who completes the quiz to have a recommended project provided for them, depending on the answers they input. The quiz will allow students who are unsure of which program to pursue to decide on an answer depending on their strengths and weaknesses in skills. Each question will have a unique set of answers and outcomes depending on what knowledge and interest is needed on the subject.
