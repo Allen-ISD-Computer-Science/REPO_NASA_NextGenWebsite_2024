@@ -222,7 +222,7 @@
 }
 
 .main_content h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     background-color: red;
     background-image: linear-gradient(to top, maroon 0%, red 100%);
     background-size: 100%;
@@ -233,7 +233,7 @@
 }
 
 .main_content h2 {
-    font-size: 4rem;
+    font-size: 2rem;
     background-color: blue;
     background-image: linear-gradient(to top, #000C6D 10%, #56B2BF 100%);
     background-size: 100%;
@@ -245,7 +245,7 @@
 
 .main_content p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: white;
 }
