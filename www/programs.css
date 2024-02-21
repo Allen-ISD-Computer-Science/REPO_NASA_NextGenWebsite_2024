@@ -2,13 +2,13 @@ html {
     height: 100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
-
     margin: 0;
     padding: 0;
 
+}
 
-body{
-    background-color: black; 
+body {
+    background-color: black;
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -17,17 +17,122 @@ body{
 
 h2 {
     font-size: 300px;
-    
+    object-fit: cover;
+    padding-bottom: 2%;
 }
 
 h3 {
     font-size: 50px;
+    padding-top: 10px;
+    padding-right:2%;
+    margin: 2%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+
+p {
+    margin: 2%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
     color: white;
 }
 
 
 .programs {
     width: 100%;
+}
+
+.indv-programs {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: black;
+
+}
+
+.design-proto {
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    /* gap: 50px;*/
+
+}
+
+.blue-section {
+    background-color: #0D1C2E;
+    color: white;
+
+
+}
+
+.left-pgrm {
+    display: flex;
+    justify-content: center;
+    color:#F4F4F4;
+}
+
+.software {
+    display: flex;
+    text-align: right;
+}
+
+.programs img {
+    width: 400px;
+    margin: 1%;
+}
+
+.des-proto-img {
+    width: 400px;
+    margin: 1%;
+    border: 7px solid #F4F4F4;
+
+}
+
+.software-img {
+    border: 7px solid #F4F4F4;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: #0D1C2E 1px 0 10px;
+    font-weight: 700;
+    font-size: 8vw;
+}
+
+
+
+.pgrm-header {
+    width: 100%;
+    height: 90vh;
+    background: url(https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/fbdf4431489343d09be0153a9b781653.jpg) top center;
+    background-image: url(https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/fbdf4431489343d09be0153a9b781653.jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    position: relative;
+
 }
 
 .navbar {
@@ -48,7 +153,7 @@ h3 {
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 50px;
     
@@ -134,7 +239,7 @@ h3 {
 	height: 75vh;
 	z-index: 1;
 	width: 100%;
-	max-width: 1300px;
+	/* max-width: 1300px; */
 	padding: 0;
     }
 
@@ -221,85 +326,4 @@ h3 {
     #mobile-menu.is-active .bar:nth-child(3) {
 	transform: translateY(-8px) rotate(-45deg);
     }    
-}
-
-.indv-programs {
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    color: black;
-  
-}
-
-.design-proto {
-    width: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    /* gap: 50px;*/
-  
-}
-
-.blue-section {
-    background-color: #0D1C2E;
-    color: white;
-
-}
-
-.left-pgrm{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.software {
-    display: flex;
-    text-align: right;
-    color: white;
-}
-
-.programs img {
-    width: 300px;
-}
-
-.des-proto-img {
-    border: 7px solid #F4F4F4;
-}
-.software-img {
-    border: 7px solid #0D1C2E;
-}
-
-@media screen and (min-width: 1020px){
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: #0D1C2E 1px 0 10px;
-    font-weight: 700;
-    font-size: 8vw;
-}
-}
-
-
-.pgrm-header {
-    width: 100%;
-    height: 90vh;
-    background: url(https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/fbdf4431489343d09be0153a9b781653.jpg) top center;
-    background-image: url(https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/fbdf4431489343d09be0153a9b781653.jpg);
-    background-position-x: center;
-    background-position-y: top;
-    background-repeat: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-    background-size: cover;
-    position: relative;
-
 }
