@@ -1,7 +1,10 @@
 /* meetTheTeam.css */
 
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
 body {
-  font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -152,7 +155,7 @@ p {
     padding: 5px;
 }
 
-/*eillens navbar*/
+/*navbar*/
 
 .navbar {
     background: black;
@@ -172,7 +175,7 @@ p {
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 50px;
     
