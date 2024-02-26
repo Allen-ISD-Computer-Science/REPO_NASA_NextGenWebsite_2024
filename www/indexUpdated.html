@@ -13,6 +13,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+      df-messenger {
+          --df-messenger-bot-message: #3260a8;
+          --df-messenger-button-titlebar-color: #3c78d8;
+          --df-messenger-chat-background-color: #fafafa;
+          --df-messenger-font-color: white;
+          --df-messenger-send-icon: #3260a8;
+          --df-messenger-user-message: red;
+      }
+    </style>
     
   </head>
   <body>
@@ -76,7 +87,21 @@
       </div>
     </div>
     
-    <script src="app.js"></script> <!-- Links the html file to app.jss -->
+      <script src="app.js"></script> <!-- Links the html file to app.jss -->
+      
+      <div class="AstroBot">
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1">
+	</script>
+	   <df-messenger
+	     intent="WELCOME"
+	     chat-title="AstroBot"
+	     agent-id="0dd17ef6-3f45-4730-a81d-c1a206deb32e"
+	     language-code="en" 
+	     chat-icon="./assets/AstroBot.PNG"
+	     >
+	   </df-messenger>
+      </div>
+      
   </body>
 </html>
 
