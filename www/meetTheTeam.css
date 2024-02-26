@@ -13,7 +13,6 @@ body {
 h1 {
     text-align: center;
     align-items: center;
-    justify-content: center;
     color: white;
 }
 
@@ -98,7 +97,6 @@ a{
 }
 
 .gallery {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: white
