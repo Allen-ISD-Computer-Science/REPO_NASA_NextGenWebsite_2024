@@ -1,0 +1,36 @@
+﻿1. Which field are you most interested in?
+* Medical - 5 points biomed
+* Engineering - 5 points des proto and flight config, 3 points sewn artiles, 2 points software
+* Culinary - 5 points culinary
+* Programming - 5 points software, 3 points hardware and des proto
+* Physics - 5 points flight config
+* Product creation - 5 points sewn articles and des proto,3 points hardware
+* Media production - 5 points vid media
+
+
+2. Pick a person that has inspired you in your career path
+* Carl Sagan - 5 points flight config, 2 points biomed
+* Neil Armstrong - 5 points flight config
+* Marie Curie - 5 points biomed
+* Steve Jobs - 5 points des proto and software
+* Gordon ramsey - 5 points culinary
+* Grace hopper - 5 points software, 3 points software
+* Steven Spielberg - 5 points vid media
+
+
+3. Pick a hobby you enjoy
+* Sewing - sewn articles
+* Programming - 5 points software and hardware
+* Photography - 5 points vid media
+* Conducting experiments - 5 points biomed, 5 points flight config
+* Cooking - 5 points culinary
+* Legos - 5 points engineering and des proto, 2 points software and hardware 
+
+
+4. Pick a fictional character you most relate to
+* Iron Man - 5 points engineering and des proto
+* Doctor Who - 5 points flight config, 3 points engineering and des proto
+* Spider Man - 5 points flight config, hardware, and engineering
+* Honey Lemon - 5 points biomed, 3 points sewn articles
+* Doofenshmirtz -  5 points des proto, engineering, vid med
+* Remy the rat - 5 points culinary
